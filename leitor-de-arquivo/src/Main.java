@@ -15,7 +15,7 @@ public class Main {
 
         System.out.println("Digite o diretorio do arquivo: ");
         String  diretorio = sc.nextLine();
-        System.out.println("--------------------------------: ");
+        System.out.println("-------------------------------- : ");
 
         try(BufferedReader br = new BufferedReader(new FileReader(diretorio))) {
             String line = br.readLine();
